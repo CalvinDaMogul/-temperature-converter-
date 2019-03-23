@@ -1,5 +1,7 @@
 body {
     background-color:darkslateblue;
+    text-align: center;
+
 }
 
 .header {
@@ -10,9 +12,18 @@ body {
 
 .button {
     text-align: center;
+    margin: 1% auto;
     
 }
 
-.input {
+.radio-button {
     text-align: center;
+    /* margin: 3% auto; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#divOutput {
+    background-color: #fff;
+    width: 300px;
+    margin: auto;
 }

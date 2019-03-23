@@ -9,12 +9,18 @@
 </head>
 <body>
     <h1 class="header">Temperature-Converter</h1>
-    <input class="input" type="text" name="userid">
+    <input id='tempInput' type="text" name="userid">
 <br>
+<form class="radio-button">
+    <input id= 'c' type="radio" name="temperature" value="celsius"> Celsius
+    <input id= 'f' type="radio" name="temperature" value="fahrenheit"> Fahrenheit<br> 
+  </form>
     <div class="button">
-        <button>convert</button>
-        <button>clear</button>
+        <button id='convertBtn'>convert</button>
+        <button id='clearBtn'>clear</button>
+        <div id="divOutput"></div>
     </div>
+
     
     <script src="main.js"></script>
 </body>
