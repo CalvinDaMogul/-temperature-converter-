@@ -1,3 +1,18 @@
 body {
-    background-color: blue;
+    background-color:darkslateblue;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.button {
+    text-align: center;
+    
+}
+
+.input {
+    text-align: center;
 }
